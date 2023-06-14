@@ -1,0 +1,10 @@
+Step 1 : Install java 8(openJDK)
+Mettez à jour votre système en exécutant la commande suivante : sudo yum update
+Installez OpenJDK 8 en exécutant la commande suivante : sudo yum install java-1.8.0-openjdk
+
+JAVA_HOME = /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.362.b08-1.amzn2.0.1.x86_64/jre
+
+Step 2 : Install Hadoop
+Téléchargez la dernière version de Hadoop sur le site officiel : wget https://downloads.apache.org/hadoop/common/hadoop-3.2.4/hadoop-3.2.4.tar.gz
+Extrayez le fichier téléchargé en exécutant la commande suivante : tar -xvf hadoop-3.2.4.tar.gz
+
